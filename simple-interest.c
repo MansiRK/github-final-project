@@ -22,9 +22,9 @@ int main() {
    printf("Enter time period in years:");
    scanf("%d", &t);
 
-   s = (p * t * r)/100;
+   s = p * t * r/100;
 
-   printf("The simple interest is: ", s);
+   printf("The simple interest is: %f", s);
 
 }
   
